@@ -15,8 +15,8 @@
 # limitations under the License.
 #
 
-PRODUCT_RELEASE_NAME := monet
-DEVICE_PATH := device/xiaomi/monet
+PRODUCT_RELEASE_NAME := umi
+DEVICE_PATH := device/xiaomi/umi
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
@@ -24,10 +24,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := monet
-PRODUCT_NAME := omni_monet
+PRODUCT_DEVICE := umi
+PRODUCT_NAME := omni_umi
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Xiaomi Mi 10 Lite 5G
+PRODUCT_MODEL := Xiaomi Mi 10 5G
 PRODUCT_MANUFACTURER := Xiaomi
 
 
